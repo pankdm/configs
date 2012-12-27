@@ -34,7 +34,7 @@ typedef vector <vi> vvi;
 int main () {
 	//freopen("", "rt", stdin);
 	//freopen("", "wt", stdout);
-
+	//std::ios::sync_with_stdio(false);
 
     return 0;
 }
