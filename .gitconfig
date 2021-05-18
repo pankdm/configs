@@ -1,6 +1,6 @@
 [user]
 	name = Dmitry Panin
-#	email = 
+	email = pankdm@gmail.com 
 [color]
     ui = auto
 [color "branch"]
@@ -24,7 +24,10 @@
     ci = commit
     st = status
     br = branch
-    
+
+    l = log --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative -n 10
+    l20 = log --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative -n 20
+
     log-graph = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative
     log-short = log --pretty=format:'%Cred%h%Creset -%C(yellow)%d %Cblue%an <%ae> %Cgreen(%cr)%Creset%n %s%n %b'
 [branch]
